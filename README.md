@@ -1,6 +1,10 @@
-# Rithvik Panchumarthi - React Portfolio
+# Rithvik Panchumarthi - Data Portfolio
 
 A modern, responsive portfolio website built with React, Vite, and Tailwind CSS showcasing data engineering expertise and projects.
+
+## 🌐 Live Demo
+
+Visit the live site: [https://rithvikpanchumarthi.github.io/data-portfolio/](https://rithvikpanchumarthi.github.io/data-portfolio/)
 
 ## 🚀 Features
 
