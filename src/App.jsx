@@ -7,7 +7,7 @@ import Contact from './components/Contact';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-white dark:bg-gray-900 transition-colors duration-300">
       <Header />
       <main>
         <Hero />
@@ -17,7 +17,7 @@ function App() {
       </main>
       
       {/* Footer */}
-      <footer className="bg-gray-900 text-gray-400 py-8 border-t border-gray-800">
+      <footer className="bg-gray-900 dark:bg-gray-950 text-gray-400 dark:text-gray-500 py-8 border-t border-gray-800 dark:border-gray-700">
         <div className="container-max text-center">
           <p className="mb-4">
             © 2024 Rithvik Panchumarthi. Built with React & Tailwind CSS.

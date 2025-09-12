@@ -10,6 +10,18 @@
   body {
     @apply bg-gray-50 text-gray-900;
   }
+  
+  /* Dark mode styles */
+  .dark {
+    background-image: url('/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+  
+  .dark body {
+    @apply bg-gray-900 text-gray-100;
+  }
 }
 
 @layer components {
@@ -18,11 +30,11 @@
   }
   
   .btn-secondary {
-    @apply px-6 py-3 bg-gray-200 text-gray-800 rounded-lg font-medium hover:bg-gray-300 transition-all duration-300;
+    @apply px-6 py-3 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 rounded-lg font-medium hover:bg-gray-300 dark:hover:bg-gray-600 transition-all duration-300;
   }
   
   .card {
-    @apply bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
+    @apply bg-white dark:bg-gray-800 rounded-xl shadow-md hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1;
   }
   
   .section-padding {
